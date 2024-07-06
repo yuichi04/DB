@@ -14,3 +14,12 @@ docker-compose up -d
 - MYSQL_DATABASE
 - MYSQL_USER
 - MYSQL_PASSWORD
+
+# Dockerコンテナ接続用コマンド
+```
+# MySQL
+docker exec -it mysql bash
+
+# PostgreSQL
+docker exec -it postgres-container psql -U pquser -d pqdatabase
+```
