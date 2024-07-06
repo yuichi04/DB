@@ -27,5 +27,5 @@ POSTGRES_PASSWORD=pqpassword
 docker exec -it mysql bash
 
 # PostgreSQL
-docker exec -it postgres-container psql -U pquser -d pqdatabase
+docker exec -it postgres psql -U pquser -d pqdatabase
 ```
