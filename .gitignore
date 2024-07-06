@@ -35,12 +35,6 @@ env/
 .env.*
 !*.env.example
 
-# Docker #
-##########
-*.log
-Dockerfile
-docker-compose.yml
-
 # Editor directories and files #
 ###############################
 .vscode/
